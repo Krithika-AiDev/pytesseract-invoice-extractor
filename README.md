@@ -1,4 +1,4 @@
-# pytesseract-invoice-extractor-app
+# pytesseract-invoice-extractor
 
 A Python project for automated extraction of data from invoice images using Tesseract OCR, with custom parsing logic based on input format and a user-friendly Streamlit interface.
 
@@ -6,7 +6,7 @@ A Python project for automated extraction of data from invoice images using Tess
 
 ## Overview
 
-**tesseract-invoice-extractor** streamlines the process of converting invoice images into structured text data. Built on Python and Tesseract OCR, it features a simple Streamlit web interface and customizable parsing logic tailored to your invoice layouts.
+**pytesseract-invoice-extractor** streamlines the process of converting invoice images into structured text data. Built on Python and Tesseract OCR, it features a simple Streamlit web interface and custom parsing logic for different invoice layouts.
 
 ---
 
@@ -34,8 +34,8 @@ Sample invoice images are provided in the `input/` directory. The data extractio
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/Krithika-AiDev/tesseract-invoice-extractor.git
-    cd tesseract-invoice-extractor
+    git clone https://github.com/Krithika-AiDev/pytesseract-invoice-extractor.git
+    cd pytesseract-invoice-extractor
     ```
 
 2. **Set up a virtual environment** (optional but recommended)
@@ -80,8 +80,7 @@ streamlit run app.py
 
 ## Parsing Logic
 
-The invoice parsing logic is defined in `parsing.py`, tailored to extract key information (like invoice number, date, total, etc.) based on the structure of sample invoices in the `input/` directory.  
-New or different invoice formats may require updates to the parsing rules.
+The invoice parsing logic is defined in `parsing.py`, tailored to extract key information (like invoice number, date, total, etc.) based on the structure of sample invoices in the `input/` directory. New or different invoice formats may require updates to the parsing rules.
 
 ---
 
