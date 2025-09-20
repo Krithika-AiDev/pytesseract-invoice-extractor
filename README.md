@@ -1,4 +1,4 @@
-# tesseract-invoice-extractor
+# pytesseract-invoice-extractor-app
 
 A Python project for automated extraction of data from invoice images using Tesseract OCR, with custom parsing logic based on input format and a user-friendly Streamlit interface.
 
